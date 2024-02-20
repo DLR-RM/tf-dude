@@ -1,0 +1,5 @@
+string start
+string stop
+---
+geometry_msgs/PoseWithCovariance path
+uint16 response_code

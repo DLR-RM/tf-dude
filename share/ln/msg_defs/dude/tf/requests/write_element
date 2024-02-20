@@ -1,0 +1,35 @@
+# ####################
+# tf_dude
+#
+# request "WriteElement"
+# ####################
+service
+
+# typedefs
+define identifier_t as "dude/tf/types/identifier"
+define frame_t as "dude/tf/types/frame"
+
+request
+# the id of the changing element.
+# must be set in every message
+identifier_t element_id
+
+# status byte. This will indicate
+# if message fields are written or
+# empty, or if element shall be
+# deleted
+# Bit 0: parent
+# Bit 1: frame
+# Bit 2: N/A
+# Bit 3: N/A
+# Bit 4: N/A
+# Bit 5: N/A
+# Bit 6: delete element
+# Bit 7: N/A
+uint16_t status
+
+identifier_t parent
+frame_t frame
+
+response
+uint16_t response_code

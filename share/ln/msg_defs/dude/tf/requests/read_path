@@ -1,0 +1,18 @@
+# ####################
+# tf_dude
+#
+# request "ReadPath"
+# ####################
+service
+
+# typedefs
+define identifier_t as "dude/tf/types/identifier"
+define frame_t as "dude/tf/types/frame"
+
+request
+identifier_t start
+identifier_t end
+
+response
+frame_t path_frame
+uint16_t response_code

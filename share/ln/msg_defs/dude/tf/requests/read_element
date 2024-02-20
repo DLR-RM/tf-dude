@@ -1,0 +1,35 @@
+# ####################
+# tf_dude
+#
+# request "ReadElement"
+# ####################
+service
+
+# typedefs
+define identifier_t as "dude/tf/types/identifier"
+define frame_t as "dude/tf/types/frame"
+
+request
+# the requested id. if this is
+# the empty id, the response will
+# contain all root elements as a
+# child node
+identifier_t id
+
+# status byte to mark which fields
+# shall be populated
+# Bit 0: parent
+# Bit 1: frame
+# Bit 2: children
+# Bit 3: N/A
+# Bit 4: N/A
+# Bit 5: N/A
+# Bit 6: N/A
+# Bit 7: N/A
+uint16_t status
+
+response
+identifier_t parent
+frame_t frame
+identifier_t* children
+uint16_t response_code

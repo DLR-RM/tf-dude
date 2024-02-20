@@ -1,0 +1,9 @@
+# ####################
+# tf_dude
+#
+# msg def for "translation"
+# ####################
+
+double x
+double y
+double z

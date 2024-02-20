@@ -1,0 +1,10 @@
+# ####################
+# tf_dude
+#
+# msg def for "rotation"
+# ####################
+
+double qx
+double qy
+double qz
+double qw

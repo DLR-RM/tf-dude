@@ -1,0 +1,7 @@
+string element_id
+uint16 status
+string parent
+geometry_msgs/PoseWithCovariance frame
+
+---
+uint16 response_code

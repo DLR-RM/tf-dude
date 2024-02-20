@@ -1,0 +1,14 @@
+# ####################
+# tf_dude
+#
+# msg def for "Frame"
+# ####################
+
+# typedefs
+define translation_t as "translation"
+define rotation_t as "rotation"
+define covariance_t as "covariance"
+
+translation_t T
+rotation_t R
+covariance_t cov

@@ -1,0 +1,30 @@
+# *********************************************************
+# tf_dude
+# (c) 2022-2024
+# Deutsches Zentrum fuer Luft- und Raumfahrt e.V.
+# Institute fuer Robotik und Mechatronik
+#
+# German Aerospace Center
+# Institute for Robotics and Mechatronics
+#
+# This file is part of the tf_dude repository and is provided as is.
+# The repository's license does apply.
+# 
+# *********************************************************
+#
+# Authors:
+# Sewtz, Marco
+#
+# *********************************************************
+
+set(tf_dude_VERSION "@tf_dude_VERSION@")
+
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(Threads REQUIRED)
+find_dependency(Boost REQUIRED COMPONENTS graph)
+find_dependency(Eigen3 REQUIRED)
+find_dependency(yaml-cpp REQUIRED)
+
+include("${CMAKE_CURRENT_LIST_DIR}/tf_dudeTargets.cmake")

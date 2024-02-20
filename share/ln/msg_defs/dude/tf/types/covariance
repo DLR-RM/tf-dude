@@ -1,0 +1,7 @@
+# ####################
+# tf_dude
+#
+# msg def for "covariance"
+# ####################
+
+double value[36]
