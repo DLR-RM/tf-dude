@@ -1,5 +1,4 @@
 # tf dude #
-[![Build Status](https://rmc-jenkins.robotic.dlr.de/jenkins/buildStatus/icon?job=indoor-map%2Ftf_dude%2Fmaster)](https://rmc-jenkins.robotic.dlr.de/jenkins/job/indoor-map/job/tf_dude/)
 [![Current Version](https://img.shields.io/badge/current%20version-0.0.13-blue.svg)](https://rmc-github.robotic.dlr.de/rollin-justin/tf_dude/releases)
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue)
 ![Python](https://img.shields.io/badge/Python-3.6-blue)
