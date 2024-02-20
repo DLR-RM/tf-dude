@@ -1,5 +1,5 @@
 # tf dude #
-[![Current Version](https://img.shields.io/badge/current%20version-0.0.13-blue.svg)](https://rmc-github.robotic.dlr.de/rollin-justin/tf_dude/releases)
+[![Current Version](https://img.shields.io/badge/current%20version-1.0.0-blue.svg)](https://github.com/DLR-RM/tf_dude/releases)
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue)
 ![Python](https://img.shields.io/badge/Python-3.6-blue)
 
